@@ -11,7 +11,8 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="materials.css">
-  <link rel="stylesheet" href="pages.css">
+  <link rel="stylesheet" href="pages.css"><link rel="stylesheet" href="navigation-alignment.css">
+  <link rel="stylesheet" href="progress.css">
   <script src="app.js" defer></script>
 </head>
 <body>
@@ -30,9 +31,9 @@
       <div>
         <h1>Construeix, publica<br><em>i administra</em> aplicacions web.</h1>
         <p class="lead">Un espai per entendre què hi ha darrere d’un servei web i posar-ho en pràctica: WordPress, Moodle, Nextcloud, correu i calendari.</p>
-        <div class="hero-actions"><a class="button button-primary" href="#comenca">Comença per l’AEA0 <span aria-hidden="true">↓</span></a><a class="button button-quiet" href="aeas.html">Explora totes les AEAs</a></div>
+        <div class="hero-actions"><a class="button button-primary" href="#b3">Continua per B3 <span aria-hidden="true">↓</span></a><a class="button button-quiet" href="aeas.html">Explora totes les AEAs</a></div>
       </div>
-      <aside class="start-card"><p class="card-label">Ara comencem</p><h2>AEA0 · Punt de partida</h2><p>Presentació del mòdul, manera de treballar i XarxaPro.</p><a href="#comenca">Obre la primera sessió <span aria-hidden="true">→</span></a></aside>
+      <aside class="start-card"><p class="card-label">Ara construïm</p><h2>AEA1 · B3–B6</h2><p>Arquitectura, plantilla gratuïta, blog, identitat responsive i selecció responsable de plugins.</p><a href="#b3">Obre el tram actual <span aria-hidden="true">→</span></a></aside>
     </div>
     <p class="notice"><strong>Orientació flexible.</strong> Els grups A i B poden avançar a ritmes diferents. Segueix sempre la indicació del professorat i les dates publicades a Classroom.</p>
   </section>
@@ -49,8 +50,8 @@
   <section id="itinerari" class="section">
     <div class="section-heading"><p class="eyebrow">Itinerari del curs</p><h2>Cinc etapes per entendre els serveis web.</h2></div>
     <div class="itinerary">
-      <article class="route-card current"><span class="route-number">00</span><div><p>AEA0</p><h3>Comença aquí</h3><small>Presentació i XarxaPro</small></div><span class="status">Ara</span></article>
-      <article class="route-card"><span class="route-number">01</span><div><p>AEA1</p><h3>WordPress</h3><small>Desplega i crea un lloc web real</small></div><span class="status">En marxa</span></article>
+      <article class="route-card"><span class="route-number">00</span><div><p>AEA0</p><h3>Comença aquí</h3><small>Presentació i XarxaPro</small></div><span class="status muted">Completat</span></article>
+      <article class="route-card current"><span class="route-number">01</span><div><p>AEA1</p><h3>WordPress</h3><small>Desplega i crea un lloc web real</small></div><span class="status">En marxa</span></article>
       <article class="route-card"><span class="route-number">02</span><div><p>AEA2</p><h3>Moodle</h3><small>Organitza un aula virtual</small></div><span class="status muted">Properament</span></article>
       <article class="route-card"><span class="route-number">03</span><div><p>AEA3</p><h3>Nextcloud + Collabora</h3><small>Comparteix i col·labora</small></div><span class="status muted">Properament</span></article>
       <article class="route-card"><span class="route-number">04</span><div><p>AEA4</p><h3>Correu i calendari</h3><small>Comunica i planifica</small></div><span class="status muted">Properament</span></article>
@@ -64,7 +65,11 @@
       <article class="module-card active"><p class="card-label">B0</p><h3>El repte</h3><p>Defineix per a qui és el lloc web, què ha de resoldre i com sabràs que funciona.</p><a href="#b0">Obre el bloc →</a></article>
       <article class="module-card active"><p class="card-label">B1</p><h3>Què hi ha darrere?</h3><p>Client, servidor, Apache, PHP, WordPress, MariaDB i Docker Compose.</p><a href="#b1">Obre el bloc →</a></article>
       <article class="module-card active"><p class="card-label">B2</p><h3>Desplega</h3><p>Instal·la Docker i posa en marxa WordPress de manera reproduïble.</p><a href="#b2">Obre el bloc →</a></article>
-      <article class="module-card soon"><p class="card-label">B3–B10</p><h3>Dissenya, administra i millora</h3><p>Pàgines, contingut, plugins, usuaris, seguretat, còpies i presentació final.</p><span>En preparació</span></article>
+      <article class="module-card active is-current"><p class="card-label">B3 · Ara</p><h3>Ordena i selecciona</h3><p>Públic, arquitectura i selecció justificada d’una ruta de plantilles gratuïtes.</p><a href="#b3">Obre el bloc →</a></article>
+      <article class="module-card active"><p class="card-label">B4</p><h3>Importa i publica</h3><p>Punt de retorn, importació controlada, neteja, pàgines i blog.</p><a href="#b4">Obre el bloc →</a></article>
+      <article class="module-card active"><p class="card-label">B5</p><h3>Transforma el disseny</h3><p>Identitat pròpia, estils globals, patrons i proves responsive.</p><a href="#b5">Obre el bloc →</a></article>
+      <article class="module-card active"><p class="card-label">B6</p><h3>Amplia amb criteri</h3><p>Necessitats, selecció, instal·lació, prova i manteniment de plugins.</p><a href="#b6">Obre el bloc →</a></article>
+      <article class="module-card soon"><p class="card-label">B7–B10</p><h3>Administra, protegeix i valida</h3><p>Formularis, usuaris, SEO, seguretat, còpies, qualitat i presentació final.</p><span>Properament</span></article>
     </div>
 
     <article id="b0" class="learning-unit"><div class="unit-meta"><span>B0</span><p>Projecte web</p></div><div class="unit-content"><h3>Defineix abans de construir.</h3><p>Un web no comença escollint un tema. Comença identificant una necessitat real i decidint quin resultat vols oferir.</p><div class="unit-columns"><div><h4>Avui faràs</h4><ul><li>Escollir un client o context fictici creïble.</li><li>Definir públic, objectiu i continguts mínims.</li><li>Escriure criteris d’èxit verificables.</li></ul></div><div><h4>Has de conservar</h4><ul><li>Una fitxa breu del projecte.</li><li>Un esquema inicial de les pàgines.</li><li>Una primera llista de tasques de la parella.</li></ul></div></div><p class="tip"><strong>Idea clau:</strong> cada decisió que prenguis ara t’estalviarà canvis confusos més endavant.</p></div></article>
@@ -72,6 +77,10 @@
     <article id="b2" class="learning-unit"><div class="unit-meta"><span>B2</span><p>Desplegament</p></div><div class="unit-content"><h3>Desplega WordPress sense perdre hores.</h3><p>La instal·lació es fa a <strong>Ubuntu Server 22.04</strong> dins d’IsardVDI. Si treballes des d’una màquina Windows, la faràs servir com a client per connectar-te al servidor.</p><div class="unit-columns"><div><h4>Abans de començar</h4><ul><li>Tens una VM Ubuntu Server engegada.</li><li>Pots executar ordres amb <code>sudo</code>.</li><li>Tens connexió de xarxa i espai de disc.</li></ul></div><div><h4>Seqüència de treball</h4><ol><li>Instal·la Docker Engine i el connector Compose.</li><li>Crea una carpeta de projecte.</li><li>Prepara el fitxer <code>compose.yaml</code>.</li><li>Inicia els serveis i comprova’n l’estat.</li><li>Acaba l’assistent de WordPress al navegador.</li></ol></div></div><pre><code>docker compose up -d
 docker compose ps
 docker compose logs -f</code></pre><p class="tip"><strong>Recorda:</strong> no copiïs contrasenyes reals a captures ni lliuraments. Farem servir valors d’exemple i variables que puguis substituir.</p></div></article>
+    <article id="b3" class="learning-unit current-unit"><div class="unit-meta"><span>B3</span><p>Arquitectura i selecció</p></div><div class="unit-content"><h3>Primer ordena; després escull la base visual.</h3><p>Concreta el públic, la proposta de valor i els recorreguts principals. Després compara rutes gratuïtes i selecciona una plantilla que encaixi amb les funcions reals del projecte.</p><div class="unit-columns"><div><h4>Construeix</h4><ul><li>Proposta de valor i mapa del lloc.</li><li>Comparativa de tres plantilles gratuïtes.</li><li>Ruta escollida: Astra, Blocksy, Ollie o Kadence.</li><li>Captura, URL i justificació de la decisió.</li></ul></div><div><h4>Comprova</h4><ul><li>No està marcada com a Pro o Premium.</li><li>Es pot editar amb Gutenberg.</li><li>Inclou les pàgines i funcions necessàries.</li><li>No exigeix pagament ni una prova temporal.</li></ul></div></div><p class="tip"><strong>Evidència individual:</strong> explica quina part de la plantilla conservaries, quina canviaries i quin risc preveus abans d’importar-la.</p></div></article>
+    <article id="b4" class="learning-unit"><div class="unit-meta"><span>B4</span><p>Importació i blog</p></div><div class="unit-content"><h3>Importa amb seguretat i substitueix la demostració.</h3><p>Fes el punt de retorn indicat pel professorat, importa la plantilla aprovada i transforma-la amb contingut propi. El blog és una part obligatòria del projecte.</p><div class="unit-columns"><div><h4>Construeix</h4><ul><li>Punt de retorn abans de la importació.</li><li>Portada, pàgines clau i menú funcional.</li><li>Blog amb tres entrades i 2–4 categories.</li><li>Imatges destacades, extractes i enllaços interns.</li></ul></div><div><h4>Comprova</h4><ul><li>No queda lorem ipsum ni contingut de mostra.</li><li>Portada i pàgina d’entrades ben assignades.</li><li>No hi ha menús o pàgines duplicades.</li><li>Els plugins importats són realment necessaris.</li></ul></div></div><p class="tip"><strong>Pregunta de control:</strong> el web continua semblant una demostració o ja explica el teu projecte?</p></div></article>
+    <article id="b5" class="learning-unit"><div class="unit-meta"><span>B5</span><p>Identitat i responsive</p></div><div class="unit-content"><h3>Transforma la plantilla en un sistema propi.</h3><p>Defineix estils globals i adapta capçalera, peu, patrons i crides a l’acció. Després prova el mateix recorregut en mòbil, tauleta i escriptori.</p><div class="unit-columns"><div><h4>Construeix</h4><ul><li>Paleta i tipografies globals.</li><li>Capçalera, peu i botons coherents.</li><li>Patrons reutilitzables personalitzats.</li><li>Composicions adaptables a cada amplada.</li></ul></div><div><h4>Comprova</h4><ul><li>Sense desplaçament horitzontal accidental.</li><li>Text llegible i botons fàcils d’utilitzar.</li><li>Menú operable amb teclat i focus visible.</li><li>Incidència, correcció i reprova registrades.</li></ul></div></div><p class="tip"><strong>Responsive:</strong> no és només «fer-ho petit»; és conservar lectura, ordre i interacció en cada pantalla.</p></div></article>
+    <article id="b6" class="learning-unit"><div class="unit-meta"><span>B6</span><p>Plugins</p></div><div class="unit-content"><h3>Instal·la menys i justifica millor.</h3><p>Parteix d’una necessitat i comprova si WordPress ja la resol. Si cal un plugin, revisa’n l’origen, l’actualització, la compatibilitat, les funcions gratuïtes i les dades que utilitza.</p><div class="unit-columns"><div><h4>Registra</h4><ul><li>Nom i enllaç oficial.</li><li>Necessitat que resol.</li><li>Funcions Free i limitacions Pro.</li><li>Prova real i decisió final.</li></ul></div><div><h4>Evita</h4><ul><li>Dos plugins per fer la mateixa funció.</li><li>Plugins abandonats o incompatibles.</li><li>Serveis externs innecessaris.</li><li>Extensions inactives que no eliminaràs.</li></ul></div></div><p class="tip"><strong>Norma:</strong> un plugin no s’avalua perquè estigui instal·lat, sinó perquè resol una necessitat i supera una prova.</p></div></article>
   </section>
 
   <section id="recursos" class="section">
@@ -86,6 +95,10 @@ docker compose logs -f</code></pre><p class="tip"><strong>Recorda:</strong> no c
       <article class="material-card">
         <div><span class="file-type">B2</span><h3>Desplega WordPress sense perdre dades</h3><p>Guia pas a pas per instal·lar Docker i desplegar WordPress amb Docker Compose a Ubuntu Server 22.04.</p></div>
         <div class="file-actions"><a class="view-file" href="materials/alumnat/AEA1_B2_Docker_WordPress_Guia_Alumnat_2026-2027.pdf" target="_blank" rel="noopener">Llegir PDF</a><a href="materials/alumnat/AEA1_B2_Docker_WordPress_Guia_Alumnat_2026-2027.docx" download>Descarregar DOCX</a></div>
+      </article>
+      <article class="material-card featured-material">
+        <div><span class="file-type">B3–B6 · Actualitzada</span><h3>Plantilles gratuïtes, blog i plugins</h3><p>Guia pas a pas per seleccionar, protegir, importar, netejar i personalitzar una plantilla, construir el blog i gestionar plugins.</p></div>
+        <div class="file-actions"><a class="view-file" href="materials/alumnat/AEA1_B3-B6_Plantilles_Blog_Plugins_Guia_Alumnat_2026-2027.pdf" target="_blank" rel="noopener">Llegir PDF</a><a href="materials/alumnat/AEA1_B3-B6_Plantilles_Blog_Plugins_Guia_Alumnat_2026-2027.docx" download>Descarregar DOCX</a></div>
       </article>
     </div>
     <div class="callout"><span class="callout-icon" aria-hidden="true">?</span><p><strong>Et bloqueges?</strong> Anota què intentaves fer, què ha passat, l’ordre exacta i el missatge d’error. Aquesta informació és la millor manera de començar a resoldre’l.</p></div>

@@ -1,0 +1,26 @@
+/* La caixa de cada opció és idèntica perquè l'estat actiu no desplaci el text. */
+.primary-nav {
+  align-items: center;
+}
+
+.primary-nav a,
+.primary-nav a[aria-current="page"] {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.35rem;
+  padding: .45rem .7rem;
+  border-radius: .55rem;
+  line-height: 1.2;
+}
+
+@media (max-width: 600px) {
+  .primary-nav {
+    align-items: stretch;
+  }
+
+  .primary-nav a,
+  .primary-nav a[aria-current="page"] {
+    min-height: 2.5rem;
+    padding: .55rem .65rem;
+  }
+}

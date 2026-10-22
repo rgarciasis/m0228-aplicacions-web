@@ -1,0 +1,15 @@
+.module-card.is-current {
+  border-color: var(--aqua);
+  background: linear-gradient(145deg, #15394c, #10283a);
+  box-shadow: 0 0 0 1px rgba(103, 232, 223, .12);
+}
+
+.current-unit {
+  border-top-color: var(--aqua);
+  background: linear-gradient(145deg, rgba(20, 54, 74, .86), rgba(14, 29, 45, .72));
+}
+
+.featured-material {
+  border-color: rgba(103, 232, 223, .55);
+  background: linear-gradient(145deg, #14364a, #0d2032);
+}
